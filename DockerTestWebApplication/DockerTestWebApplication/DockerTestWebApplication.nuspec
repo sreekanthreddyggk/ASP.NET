@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MVCApplicationSample</id>
+    <version>1.0.0</version>
+    <title>$title$</title>
+    <authors>a</authors>
+    <owners>amit.jena</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MVC Sample Application</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+  <files>
+	<file src="App_Start\**\*" target="App_Start\" />
+	<file src="Areas\**\*" target="Areas\" />
+    <file src="bin\**\*" target="bin\" />
+	<file src="Content\**\*" target="Content\" />
+    <file src="Controllers\**\*" target="Controllers\" />
+	<file src="fonts\**\*" target="fonts\" />
+    <file src="Models\**\*" target="Models\" />
+    <file src="obj\**\*" target="obj\" />
+    <file src="Properties\**\*" target="Properties\" />
+	<file src="Providers\**\*" target="Providers\" />
+	<file src="Results\**\*" target="Results\" />
+	<file src="Scripts\**\*" target="Scripts\" />
+	<file src="Views\**\*" target="Views\" />
+    <file src="Global.asax" target="Global.asax" />
+    <file src="Web.config" target="Web.config" />
+  </files>
+</package>
